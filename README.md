@@ -1,6 +1,6 @@
 
 <main>
-  <button > click me </button>
+  <button> click me </button>
 </main>
 
 <script>
