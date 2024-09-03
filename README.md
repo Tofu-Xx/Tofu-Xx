@@ -1,13 +1,6 @@
 
-  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
-  <script src="https://unpkg.com/html-vue-setup/dist/main.umd.js"></script>
-
-<script setup>
-  const count = ref(0)
-</script>
-
 <main>
-  <button @click="count++">{{ count }}</button>
+  <button > click me </button>
 </main>
 
 <script>
