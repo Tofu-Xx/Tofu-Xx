@@ -1,12 +1,49 @@
-- 👋 Hi, I’m @Tofu-Xx
-- 👀 I’m interested in pretty girl 
-- 🌱 I’m currently learning gayhub
-- 💞️ I’m looking to collaborate on my ass please
-- 📫 How to reach me 1714843907@qq.com
-- 😄 Pronouns: none
-- ⚡ Fun fact: my README.md
 
-<!---
-Tofu-Xx/Tofu-Xx is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <script src="https://unpkg.com/html-vue-setup/dist/main.umd.js"></script>
+
+<script setup>
+  const count = ref(0)
+</script>
+
+<main>
+  <button @click="count++">{{ count }}</button>
+</main>
+
+<script>
+    const cssstr=`
+    @import "https://unpkg.com/tofukit/tools/reset.css";
+    main {     
+      display: flex;
+      justify-content: center;
+      button {        
+        font-size: 2em;
+        padding: 1em 2em;
+        border: none;
+        border-radius: 5px;
+        background-color: #0077cc;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {          
+          background-color: #005fa3;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+          transform: scale(1.05);
+        }
+                
+        &:active {         
+          background-color: #003c66;
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+          transform: scale(0.95);
+        }      
+      }
+    }`
+
+    const style = document.createElement('style');
+
+    style.innerHTML = cssstr;
+
+    document.head.appendChild(style);
+
+</script>
