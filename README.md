@@ -1,10 +1,4 @@
-<div touf-xx>
-  <style>
-    [tofu-xx] {
-      display: flex;
-      color: transparent;
-    }
-  </style>
+<div>
   <img src="https://picsum.photos/233/44/?0">
   <img src="https://picsum.photos/211/44/?1">
   <img src="https://picsum.photos/189/44/?2">
