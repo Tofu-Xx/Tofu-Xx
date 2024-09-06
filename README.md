@@ -6,6 +6,6 @@
 
   <img src="https://picsum.photos/211/44/?4">
   <img src="https://picsum.photos/200/44/?5">
-  <img src="https://picsum.photos/211/44/?1">
+  <img src="https://picsum.photos/211/44/?6">
   <img src="https://picsum.photos/222/44/?7">
 </div>
